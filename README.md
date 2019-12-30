@@ -1,5 +1,4 @@
 # My Personal Website
-[andresq.com] (https://www.andresq.com)
+Check it out here [andresq.com] (https://www.andresq.com)
 ---
-# Currently rebuilding
-
+# Currently rebuilding 🏗
