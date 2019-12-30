@@ -4,25 +4,27 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Titillium Web', sans-serif;
+
 }
 
 body {
-  color: black; /* BETA */
+  color: black;
 }
 
 
 #main {
 
-  /* Color and design */
+  /* Color and design for card */
   background-color: black;
   border-radius: 20px;
   box-shadow: 0 0 10px black;
-  background: rgba(255, 255, 255, 0.70);
+  background: rgba(227, 229, 229, 0.80);
 
-
+  /* Text design */
   text-align: center;
   text-decoration: none;
-
 
 
   /* Positioning */
@@ -32,30 +34,46 @@ body {
 
 }
 
+#name h1 {
+  margin: 0;
+  font-weight: 900;
+}
 
-
-#name {
-  background-color: blue;
-  /* opacity: 1; */
+#name p {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 100;
 }
 
 #current {
-  /* background-color: red; */
-  /* opacity: 1; */
+  margin: 25px 0 20px 0;
+}
+
+#current p {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+#byeDebt {
+  font-size: 1.2em;
 }
 
 #links {
-  /* background-color: green; */
-  /* opacity: 1; */
+  font-size: 1.3em;
 }
 
-
-
 li {
+  padding-right: 5px;
   list-style-type: none;
+  display:inline-block;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a:hover {
+  font-size: 1.25em;
+  font-style: 'Courier New';
 }
