@@ -1,0 +1,54 @@
+html {
+  background-color: black;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+body {
+  color: black; /* BETA */
+}
+
+#main {
+
+  /* Color and design */
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+
+
+  text-align: center;
+  text-decoration: none;
+
+
+
+  /* Positioning */
+  margin-top: 20%;
+  margin-bottom: 50%;
+  padding: 10px 0 10px 0;
+
+}
+
+#name {
+  /* background-color: blue;  */
+}
+
+#current {
+  /* background-color: red;  */
+}
+
+#links {
+  /* background-color: green;  */
+}
+
+
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
