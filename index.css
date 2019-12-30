@@ -26,12 +26,10 @@ body {
   text-align: center;
   text-decoration: none;
 
-
   /* Positioning */
   margin: 20% auto auto auto;
   padding: 10px 0 10px 0;
   width: 70%;
-
 }
 
 #name h1 {
