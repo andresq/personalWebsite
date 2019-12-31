@@ -1,15 +1,12 @@
 html {
-  background-color: black;
-  background-image: url("background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #5AC167;
 
-
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Titillium Web', sans-serif;
 
 }
 
 body {
-  color: black;
-  text-align: center;
+  color: #E2F7E5;
+  text-align: center;s
 }
