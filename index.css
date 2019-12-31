@@ -1,5 +1,6 @@
 html {
   background-color: #5AC167;
+  overflow: hidden;
 
   /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Titillium Web', sans-serif;
@@ -17,7 +18,7 @@ body {
   text-decoration: none;
 
   /* Positioning */
-  margin: 20% auto auto auto;
+  margin: auto;
   padding: 10px 0 10px 0;
   width: 70%;
 }
