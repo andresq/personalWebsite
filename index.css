@@ -1,37 +1,19 @@
 html {
-  background-color: black;
-  background-image: url("background-phone.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
+  background-color: #5AC167;
 
   /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Titillium Web', sans-serif;
 
 }
 
-@media screen and (min-width: 660px) {
-  html {
-    background-image: url("background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-
 body {
-  color: black;
+  color: #E2F7E5;
 }
 
 
 #main {
-
-  /* Color and design for card */
-  background-color: black;
-  border-radius: 20px;
-  box-shadow: 0 0 10px black;
-  background: rgba(227, 229, 229, 0.80);
-
   /* Text design */
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 
   /* Positioning */
@@ -42,13 +24,11 @@ body {
 
 #name h1 {
   margin: 0;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 #name p {
   margin: 0;
-  font-size: 1.1em;
-  font-weight: 100;
 }
 
 #current {
@@ -57,21 +37,25 @@ body {
 
 #current p {
   margin: 0;
-  font-size: 1.5em;
-}
-
-#byeDebt {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 #links {
   font-size: 1.3em;
 }
 
+#byeDebt, #photography {
+  text-decoration: underline;
+}
+
+ul {
+  padding: 0;
+}
+
 li {
   padding-right: 5px;
   list-style-type: none;
-  display:inline-block;
+  display: inline-block;
 }
 
 a {
@@ -80,6 +64,5 @@ a {
 }
 
 a:hover {
-  font-size: 1.25em;
-  font-style: 'Courier New';
+  color: #244E2A;
 }
