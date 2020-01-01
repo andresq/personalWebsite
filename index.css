@@ -18,7 +18,7 @@ body {
   text-decoration: none;
 
   /* Positioning */
-  margin: auto;
+  margin: 10% auto auto auto;
   padding: 10px 0 10px 0;
   width: 70%;
 }
