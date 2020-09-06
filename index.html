@@ -1,37 +1,94 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Andres Quintero - Software Engineer Student | NYC</title>
-    <meta name="description" content="Andres Quintero is college student studying Computer Science in NYC">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Andres Quintero - Full Stack Developer </title>
+    <meta name="description" content="Andres Quintero is a software engineer in NYC">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css" type="text/css">
+    
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   	<link rel="apple-touch-icon" href="aqicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" type="text/css">
   </head>
   <body>
-    <div id="main">
+    
 
-      <div id="name">
-        <h1>Hello, I'm Andres and I'm a computer science student in NYC</h1>
+    <nav class="navbar">
+      <a class="navbar-brand" href="#">Andres Quintero</a>
+      <a href="mailto:hello@andresq.com">Contact Me</a>
+
+    </nav>
+
+    <div class="col" id="works">
+
+      <div class="row" id="intro">
+        <h1 style="font-weight: 300;">Hello, I'm Andres. I'm a full stack developer with experience building web and iOS applications. Here are a few of my project, check out more at my <a href="https://github.com/andresq"> <strong>Github</strong></a>.</h1>
       </div>
 
-      <div id="current">
-        <p>I am currently working on my iOS app <a id="byeDebt" href="byeDebt.html">byeDebt</a> and practicing for interviews.</p>
+      <div class="row">
+        <div class="col-md">
+          <img src="/assests/byeDebt.png" class="img-fluid" alt="byeDebt Mockup Photos">
+        </div>
+        <div class="col-md" style="padding-top: 45px;">
+          <h2>byeDebt</h2>
+          <p>This is byeDebt an iOS application that helps you be in control of your debt. This debt management application will help you effectively eliminate your debt</p>
+          <!-- <button type="button" class="btn btn-outline-dark code">Code</button> -->
+          <a href="https://github.com/andresq/byeDebt" class="code">CODE</a>
+        </div>
+        
       </div>
 
-      <div id="links">
-        <p>I enjoy <a id="photography" href="https://instagram.com/andres.q_">photography</a>, playing board games, watching movies, and learning new things. Check out my work and connect with me.</p>
-        <ul>
-          <li class="link"><a href="https://github.com/andresq"><i class="fab fa-github"></i> Github</a></li>
-  				<li class="link"><a href="https://www.linkedin.com/in/andresq1"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
-          <li class="link"><a href="mailto:hello@andresq.com"><i class="fas fa-envelope"></i> E-mail</a></li>
-  				<li class="link"><a href="https://instagram.com/andres.q_"><i class="fab fa-instagram"></i> Instagram</a></li>
-          <li class="link"><a href="https://twitter.com/andresq__"><i class="fab fa-twitter"></i> Twitter</a></li>
-        </ul>
+      <div class="row">
+        <div class="col-md">
+          <img src="/assests/AlbumArtFinder.png" class="img-fluid" alt="Album Art Finder Mockup Photos">
+        </div>
+        <div class="col-md" style="padding-top: 35px;">
+          <h2>Album Art Finder</h2>
+          <p>Album Art Finder uses the Spotify's API to finder album art of the queried artist. This application uses Node.js on the backend</p>
+          <a href="https://github.com/andresq/AlbumArtFinder" class="code">CODE</a>
+        </div>
+        
+      </div>
+      
+      <div class="row">
+        <div class="col-md"> 
+          <img src="/assests/SodaDesigner.png" class="img-fluid" alt="SodaDesigner Mockup Photos">
+        </div>
+        <div class="col-md" style="padding-top: 35px;">
+          <h2>Soda Designer</h2>
+          <p>Soda Designer is made to express an RPC subroutine to a server, after the selecting the style of the soda can, the app creates it server-side and then sends back the png result for download. This application uses Node.js on the backend</p>
+          <a href="https://github.com/andresq/SodaDesigner" class="code">CODE</a>
+        </div>
+        
+      
       </div>
 
+      
+      
     </div>
+
+    <div class="col" id="links">
+
+      <p class="row-md"> I enjoy <a id="photography" href="https://instagram.com/andres.q_"> <strong>photography</strong></a>, writing code, and learning new things. Check out my work and connect with me.</p>
+
+      <div class="btn-group" role="group" aria-label="link">
+        <button type="button" class="btn btn-link btn-lg"><a href="https://github.com/andresq"><i class="fab fa-github"></i> Github</a>   </button>
+        <button type="button" class="btn btn-link btn-lg"><a href="https://www.linkedin.com/in/andresq1"><i class="fab fa-linkedin-in"></i> LinkedIn</a>  </button>
+        <button type="button" class="btn btn-link btn-lg"><a href="mailto:hello@andresq.com"><i class="fas fa-envelope"></i> Email</a>   </button>
+        <button type="button" class="btn btn-link btn-lg"><a href="https://instagram.com/andres.q_"><i class="fab fa-instagram"></i> Instagram</a>    </button>
+        <button type="button" class="btn btn-link btn-lg"><a href="https://twitter.com/andresq__"><i class="fab fa-twitter"></i> Twitter</a>  </button>
+      </div>
+
+     
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
+  
 </html>
